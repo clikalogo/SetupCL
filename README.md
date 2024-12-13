@@ -1,2 +1,2 @@
 # SetupCL
-Teste shell
+Instalador shell
