@@ -1,7 +1,8 @@
 #!/bin/bash
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         ORION DESIGN                                        ##
+##     bash <(curl -sSL https://raw.githubusercontent.com/clikalogo/SetupCL/main/Setup)      ##
+##                                         SetupCL->13122024                                   ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 ## Cores
@@ -13,19 +14,17 @@ vermelho="\e[91m"
 reset="\e[0m"
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         ORION DESIGN                                        ##
+##                                         SetupCL                                             ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 sudo apt update
-
 sudo apt upgrade -y
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         ORION DESIGN                                        ##
+##                                         SetupCL                                             ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 nome_aviso(){
-
 clear
 echo ""
 echo -e "$amarelo===================================================================================================$reset"
@@ -41,8 +40,7 @@ echo -e "$amarelo===============================================================
 echo ""
 echo ""
 }
-
-nome_atualizadno(){
+nome_atualizando(){
     clear
     echo ""
     echo -e "$amarelo===================================================================================================$reset"
@@ -74,7 +72,6 @@ nome_iniciando(){
     echo ""
     echo ""
 }
-
 nome_verificando(){
     clear
     echo ""
@@ -92,7 +89,7 @@ nome_verificando(){
     echo ""
 }
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         ORION DESIGN                                        ##
+##                                         SetupCL                                             ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 desc_ver(){
@@ -101,7 +98,7 @@ echo ""
 } 
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         ORION DESIGN                                        ##
+##                                         SetupCL                                             ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 clear
@@ -132,7 +129,7 @@ if [ "$PWD" != "/root" ]; then
 fi
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         ORION DESIGN                                        ##
+##                                         SetupCL                                             ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 
@@ -265,7 +262,7 @@ if [ -e "SetupCL" ]; then
 fi
 
 # Baixa o script
-curl -sSL https://raw.githubusercontent.com/oriondesign2015/SetupOrion/main/SetupOrion -o SetupCL
+curl -sSL https://raw.githubusercontent.com/clikalogo/SetupCL/main/SetupCL -o SetupCL
 if [ $? -eq 0 ]; then
     echo "13/13 - [ OK ] - Baixando o script"
     # Executa o script baixado
@@ -279,7 +276,7 @@ fi
 
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         ORION DESIGN                                        ##
+##                                         SetupCL                                             ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 sudo apt update
